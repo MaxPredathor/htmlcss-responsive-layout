@@ -194,36 +194,71 @@ span{
     color: var(--color-primary-color);
     text-decoration: underline;
 }
-
-
-@media screen and (min-width: 576px){
-        .d-flex{
-            display: flex;
-            flex-flow: row wrap;
-        }          
-        #intro .col{         
-            width: calc(100% / 3);
-             }     
-        #intro .col:first-child{
-            width: calc((100% / 3) * 2);    
-        } 
-}  
-@media screen and (min-width: 992px){
-        #nav ul{         
-            display: block;         
-            list-style: none;         
-            display: flex;    
-        }     
-        #nav i{           
-            display: none;     
-        } 
-    }  
-@media screen and (min-width: 1200px){     
-        .container{         
-            max-width: 1140px;         
-            margin: 0 auto;     
-        }     
-        #intro .col:first-child .card{         
-            display: flex;     
-        } 
+@media screen and (min-width: 768px){
+    .container{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-end;
+        gap: 10px;
+        row-gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .col{
+        width: calc((100% / 3) - 20px);
+    }
+    .col .card{
+        width: 100%;
+        height: 460px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .big-card{
+        width: 63%;
+    }
+    .big-card img{
+        height: 200px;
+        width: 80%;
+        object-fit: contain;
+    }
+    .partners-card{
+        width: 20vw;
+        height: 20vw;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: inline-block;
+    }
+    .p-container{
+        width: 50%;
+        display: inline-block;
+        height: 100px;
+        margin-left: 20px;
+    }
+    .partners.card  .p-partners{
+        width: 60%;
+        height: 100%;
+        display: inline-block;
+    }
+    .benefit-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        gap: 10px;
+        row-gap: 15px;
+        padding-bottom: 30px;
+    }
+    .card-benefit{
+        width: calc((90% / 2) - 10px);
+        margin: 0;
+    }
+    .aboutus-wrapper{
+        width: 50%;
+        display: inline-block;
+    }
+    .about-us-img{
+        width: 45%;
+        display: inline-block;
+    }
 }
