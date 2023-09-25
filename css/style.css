@@ -1,0 +1,103 @@
+:root {
+	--color-secondary-color: #0084FD;
+	--color-dark-color: #333333;
+	--color-light-color: #FFFFFF;
+	--color-primary-color: #9792E4;
+	--color-bg-card: #B5DDFF;
+	--color-contrast-color: #FCC060;
+	--color-text: #424242;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    color: var(--color-text);
+}
+header{
+    background-color: var(--color-secondary-color);
+}
+main{
+    background-color: var(--color-light-color);
+}
+.even{
+    background-color: var(--color-primary-color);
+}
+.small-border-radius{
+    border-radius: 10px;
+}
+.medium-border-radius{
+    border-radius: 20px;
+}
+.circle{
+    border-radius: 50%;
+}
+.bg-card{
+    background-color: var(--color-bg-card);
+}
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.px-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text-primary{
+    color: var(--color-primary-color);
+}
+.text-secondary{
+    color: var(--color-secondary-color);
+}
+.text-light{
+    color: var(--color-light-color);
+}
+.btn{
+    padding: 6px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+.line-height{
+    line-height: 1.5em;
+}
+@media screen and (min-width: 576px){
+        .d-flex{
+            display: flex;
+            flex-flow: row wrap;
+        }          
+        #intro .col{         
+            width: calc(100% / 3);
+             }     
+        #intro .col:first-child{
+            width: calc((100% / 3) * 2);    
+        } 
+}  
+@media screen and (min-width: 992px){
+        #nav ul{         
+            display: block;         
+            list-style: none;         
+            display: flex;    
+        }     
+        #nav i{           
+            display: none;     
+        } 
+    }  
+@media screen and (min-width: 1200px){     
+        .container{         
+            max-width: 1140px;         
+            margin: 0 auto;     
+        }     
+        #intro .col:first-child .card{         
+            display: flex;     
+        } 
+}
