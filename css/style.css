@@ -19,6 +19,14 @@ body{
 header{
     background-color: var(--color-secondary-color);
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-nav{
+    font-size: 40px;
+}
 main{
     background-color: var(--color-light-color);
 }
