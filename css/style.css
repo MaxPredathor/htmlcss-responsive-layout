@@ -166,6 +166,16 @@ main{
     width: 40%;
     margin-left: 40px;
 }
+.about-us-btn{
+    width: 50%;
+    letter-spacing: 0;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+.about-us-img > img{
+    width: 50%;
+    padding: 20px 20px;
+}
 
 
 @media screen and (min-width: 576px){
