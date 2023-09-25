@@ -162,6 +162,10 @@ main{
     height: 100%;
     object-fit: cover;
 }
+.btn-benefit{
+    width: 40%;
+    margin-left: 40px;
+}
 
 
 @media screen and (min-width: 576px){
