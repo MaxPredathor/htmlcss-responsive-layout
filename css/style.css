@@ -39,11 +39,17 @@ main{
 .medium-border-radius{
     border-radius: 20px;
 }
+.big-border-radius{
+    border-radius: 40px;
+}
 .circle{
     border-radius: 50%;
 }
 .bg-card{
     background-color: var(--color-bg-card);
+}
+.bg-light{
+    background-color: var(--color-light-color);
 }
 .bg-btn{
     background-color: var(--color-secondary-color);
@@ -71,6 +77,15 @@ main{
 .my-20{
     margin-left: 20px;
     margin-right: 20px;
+}
+.font-30{
+    font-size: 30px;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-em{
+    font-weight: italic;
 }
 .text-primary{
     color: var(--color-primary-color);
@@ -114,6 +129,20 @@ main{
     font-size: 100px;
     padding-left: 110px;
     margin-top: 20px;
+}
+.dev-container{
+    width: 90%;
+    margin:  auto;
+}
+.img-width{
+    width: 90%;
+    margin-left: 20px;
+}
+.arrow{
+    margin-left: 150px;
+    font-size: 20px;
+    background-color: var(--color-primary-color);
+    padding: 15px 17px;
 }
 
 @media screen and (min-width: 576px){

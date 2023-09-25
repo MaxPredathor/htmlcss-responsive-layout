@@ -1,89 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Responsive Layout</title>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <div>
-                    <img class="py-20 px-20" src="img/logo.png" alt="Logo">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <img class="py-20 px-20" src="img/logo.png" alt="Logo">
+            </div>
+            <div>
+                <i class="fa-solid fa-bars text-light icon-nav py-20 px-20"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="col">
+                    <div class="card bg-card small-border-radius mx-20 my-20">
+                        <h3 class="text-secondary px-10 py-20">Get a demo application</h3>
+                        <p class="line-height px-10 text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Excepturi consequatur alias
+                            repellat tempora, blanditiis magnam vel quasi similique quo quas?</p>
+                        <a class="btn text-light medium-border-radius bg-btn mx-20 py-10 my-20 px-10 py-10" href="">
+                            <i class="fa-brands fa-apple"></i>
+                            App Store
+                        </a>
+                        <img src="img/phone.png" alt="PhoneImg">
+                    </div>
                 </div>
-                <div>
-                    <i class="fa-solid fa-bars text-light icon-nav py-20 px-20"></i>
+                <div class="col">
+                    <div class="card bg-card small-border-radius mx-20 my-20">
+                        <i class="fa-solid fa-file-code text-secondary icon-size"></i>
+                        <h3 class="text-secondary px-10 py-20 text-align">Clean Code</h3>
+                        <p class="line-height px-10 py-20 my-20 text-bold">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Excepturi consequatur alias
+                            repellat tempora, blanditiis magnam vel quasi similique quo quas?</p>
+                    </div>
                 </div>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <div class="container">
-                    <div class="col">
-                        <div class="card bg-card small-border-radius mx-20 my-20">
-                            <h3 class="text-secondary px-10 py-20">Get a demo application</h3>
-                            <p class="line-height px-10 text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi consequatur alias
+                <div class="col">
+                    <div class="card bg-card small-border-radius mx-20 my-20">
+                        <div class="card bg-card small-border-radius">
+                            <i class="fa-solid fa-compass-drafting text-secondary icon-size"></i>
+                            <h3 class="text-secondary px-10 py-20 text-align">Web Design</h3>
+                            <p class="line-height px-10 py-10 my-20 text-bold">Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Excepturi consequatur alias
                                 repellat tempora, blanditiis magnam vel quasi similique quo quas?</p>
-                            <a class="btn text-light medium-border-radius bg-btn mx-20 py-10 my-20 px-10 py-10" href="">
-                                <i class="fa-brands fa-apple"></i>
-                                App Store
-                            </a>
-                            <img src="img/phone.png" alt="PhoneImg">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card bg-card small-border-radius mx-20 my-20">
-                            <i class="fa-solid fa-file-code text-secondary icon-size"></i>
-                            <h3 class="text-secondary px-10 py-20 text-align">Clean Code</h3>
-                            <p class="line-height px-10 py-20 my-20 text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi consequatur alias
-                                repellat tempora, blanditiis magnam vel quasi similique quo quas?</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card bg-card small-border-radius mx-20 my-20">
-                            <div class="card bg-card small-border-radius">
-                                <i class="fa-solid fa-compass-drafting text-secondary icon-size"></i>
-                                <h3 class="text-secondary px-10 py-20 text-align">Web Design</h3>
-                                <p class="line-height px-10 py-10 my-20 text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi consequatur alias
-                                repellat tempora, blanditiis magnam vel quasi similique quo quas?</p>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col">
-                        <div class="card bg-card small-border-radius mx-20 my-20">
-                            <div class="card bg-card small-border-radius">
-                                <i class="fa-solid fa-laptop-code icon-size text-secondary"></i>
-                                <h3 class="text-secondary px-10 py-20 text-align">Development</h3>
-                                <p class="line-height py-10 px-10 my-20 text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi consequatur alias
-                                    repellat tempora, blanditiis magnam vel quasi similique quo quas?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card bg-card small-border-radius mx-20 my-20">
-                            <div class="card bg-card small-border-radius">
-                                <i class="fa-solid fa-bullhorn icon-size text-secondary"></i>
-                                <h3 class="text-secondary px-10 py-20 text-align">Branding</h3>
-                                <p class="line-height px-10 py-10 my-20 text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi consequatur alias
-                                    repellat tempora, blanditiis magnam vel quasi similique quo quas?</p>
-                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="even">1</section>
-            <section>1</section>
-            <section class="even">1</section>
-            <section>1</section>
-            <section class="even">1</section>
-        </main>
-        <footer>
-            <div class="container"></div>
-        </footer>   
-    </body>
+                <div class="col">
+                    <div class="card bg-card small-border-radius mx-20 my-20">
+                        <div class="card bg-card small-border-radius">
+                            <i class="fa-solid fa-laptop-code icon-size text-secondary"></i>
+                            <h3 class="text-secondary px-10 py-20 text-align">Development</h3>
+                            <p class="line-height py-10 px-10 my-20 text-bold">Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Excepturi consequatur alias
+                                repellat tempora, blanditiis magnam vel quasi similique quo quas?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-card small-border-radius mx-20 my-20">
+                        <div class="card bg-card small-border-radius">
+                            <i class="fa-solid fa-bullhorn icon-size text-secondary"></i>
+                            <h3 class="text-secondary px-10 py-20 text-align">Branding</h3>
+                            <p class="line-height px-10 py-10 my-20 text-bold">Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Excepturi consequatur alias
+                                repellat tempora, blanditiis magnam vel quasi similique quo quas?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="even">
+            <img class="img-width mx-20" src="img/planning1.png" alt="Planning">
+            <h3 class="text-light text-align py-10 font-30">Strategic Planning</h3>
+            <p class="line-height py-10 px-20 text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste illum provident dolorem, alias eaque
+                molestiae id dolor! Nobis illum praesentium optio eum incidunt! Modi, a officiis tenetur hic voluptates
+                eaque!</p>
+            <div class="dev-container bg-light big-border-radius mx-20">
+                <img class="img-width" src="img/planning2.png" alt="Planning">
+                <h4 class="px-20 py-20 font-20 text-align">App Development</h4>
+                <p class="text-align px-10 py-10 line-height font-em">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ullam, quas voluptates repellat
+                    cupiditate explicabo.</p>
+                <i class="fa-solid fa-arrow-down arrow mx-20 circle"></i>
+            </div>
+        </section>
+        <section>1</section>
+        <section class="even">1</section>
+        <section>1</section>
+        <section class="even">1</section>
+    </main>
+    <footer>
+        <div class="container"></div>
+    </footer>
+</body>
+
 </html>
